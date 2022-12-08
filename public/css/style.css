@@ -142,6 +142,8 @@ div.contents > div.user-name {
   line-height: 29px;
 
   color: #000000;
+
+  cursor: pointer; /*커서모양*/
 }
 
 div.contents > div.user-email {
@@ -221,4 +223,5 @@ div.contents > div.card-area > div.card > div.alert {
 .red {
   color: red;
 }
+
 

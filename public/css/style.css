@@ -148,6 +148,20 @@ div.contents > div.user-name {
 #name{
   cursor: pointer;
 }
+div.contents > div.user-number {
+  width: 329px;
+  height: 18px;
+  margin-left: 50px;
+  margin-top: 16px;
+
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #000000;
+}
 
 div.contents > div.user-email {
   width: 329px;

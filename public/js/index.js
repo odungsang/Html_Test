@@ -45,7 +45,7 @@ if (localuserNumber) {
 }
 userNumber.onclick = () => {
   const number = prompt('학번을 입력해 주세요');
-  if (number != '' && number.length == 10) {
+  if (number != '' && number.length <= 10) {
     localStorage.setItem('userNumber', number);
     setUserNumberInnerHtml(number);
   } else if (number.length >= 10) {

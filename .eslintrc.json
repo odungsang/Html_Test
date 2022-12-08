@@ -10,7 +10,8 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "rules": { 
+    "rules": {
+        "max-len" : "off", 
         "linebreak-style": 0
     }
 }

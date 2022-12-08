@@ -143,7 +143,10 @@ div.contents > div.user-name {
 
   color: #000000;
 
-  cursor: pointer; /*커서모양*/
+  /*cursor: pointer;*/ /*커서모양*/
+}
+#name{
+  cursor: pointer;
 }
 
 div.contents > div.user-email {
